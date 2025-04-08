@@ -138,6 +138,6 @@ else:
         except Exception as e:
             st.error("Error generating prediction: " + str(e))
         
-        st.write("### Visualizations with Prediction Marker")
+        
         
        
