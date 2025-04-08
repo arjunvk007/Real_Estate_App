@@ -9,7 +9,7 @@ import logging
 
 def main():
     # Load dataset
-    df = load_data(r"data\final.csv")
+    df = pd.read_csv("data/final.csv")
     if df is None:
         logging.error("Dataset could not be loaded. Exiting.")
         return

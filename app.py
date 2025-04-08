@@ -12,7 +12,7 @@ from src.model_evaluation import evaluate_model
 st.title("🛖 Real Estate Price Prediction")
 
 # Load dataset from the repo (final.csv)
-df = load_data(r"data\final.csv")
+df = pd.read_csv("data/final.csv")
 if df is None:
     st.error("Error loading dataset.")
 else:
