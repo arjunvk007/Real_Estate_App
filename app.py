@@ -140,35 +140,4 @@ else:
         
         st.write("### Visualizations with Prediction Marker")
         
-        # Visualization 1: Price Distribution with predicted price marker
-        st.write("#### Distribution of Price")
-        plt.figure()
-        plt.hist(df["price"], bins=30, edgecolor='black')
-        plt.axvline(x=prediction, color='red', linestyle='--', label="Predicted Price")
-        plt.xlabel("Price")
-        plt.ylabel("Frequency")
-        plt.title("Distribution of Price")
-        plt.legend()
-        st.pyplot(plt.gcf())
-        
-        # Visualization 2: Scatter Plot (sqft vs. price) with input point highlighted
-        st.write("#### Scatter Plot: Sqft vs Price")
-        plt.figure()
-        plt.scatter(df["sqft"], df["price"], alpha=0.5, label="Data Points")
-        plt.scatter(sqft, prediction, color='red', s=100, label="Your Input")
-        plt.xlabel("Sqft")
-        plt.ylabel("Price")
-        plt.title("Sqft vs Price")
-        plt.legend()
-        st.pyplot(plt.gcf())
-        
-        # Visualization 3: Correlation Heatmap
-        st.write("#### Correlation Heatmap")
-        plt.figure(figsize=(10, 8))
-        corr = df.corr()
-        im = plt.imshow(corr, cmap='viridis', interpolation='none')
-        plt.colorbar(im)
-        plt.xticks(range(len(corr.columns)), corr.columns, rotation=90)
-        plt.yticks(range(len(corr.columns)), corr.columns)
-        plt.title("Correlation Heatmap")
-        st.pyplot(plt.gcf())
+       
