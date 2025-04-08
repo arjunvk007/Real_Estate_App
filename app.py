@@ -9,10 +9,10 @@ from src.data_split import split_data
 from src.model_training import train_model
 from src.model_evaluation import evaluate_model
 
-st.title("🏡 Real Estate Price Prediction & Visualizations")
+st.title("🛖 Real Estate Price Prediction")
 
 # Load dataset from the repo (final.csv)
-df = load_data(r"D:\BISI\ML Project\Real-Estate-Price-Prediction-using-Random-Forest\Real Estate App\data\final.csv")
+df = load_data(r"data\final.csv")
 if df is None:
     st.error("Error loading dataset.")
 else:
