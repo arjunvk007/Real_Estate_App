@@ -12,7 +12,7 @@ from src.model_evaluation import evaluate_model
 st.title("🏡 Real Estate Price Prediction & Visualizations")
 
 # Load dataset from the repo (final.csv)
-df = load_data(r"D:\Personal Projects\Real-Estate-Price-Prediction-using-Random-Forest\data\final.csv")
+df = load_data(r"D:\BISI\ML Project\Real-Estate-Price-Prediction-using-Random-Forest\Real Estate App\data\final.csv")
 if df is None:
     st.error("Error loading dataset.")
 else:
