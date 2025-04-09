@@ -127,4 +127,4 @@ Feel free to fork this repository and make improvements or adjustments. Pull req
 ## ✉️ Contact
 
 - **Author:** Sree Sankaran Chackoth
-- **GitHub:** [github.com/just-sree](https://github.com/just-sree)
+- **GitHub:** https://github.com/arjunvk007/Real_Estate_App/tree/master
