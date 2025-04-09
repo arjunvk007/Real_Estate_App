@@ -9,8 +9,6 @@ This Streamlit application allows users to explore a real estate dataset, perfor
 This project leverages machine learning (Linear Regression) to predict house prices. It includes:
 - Exploratory Data Analysis (EDA)
 - Data preprocessing and feature engineering
-- Interactive visualizations
-- User-friendly dropdown-based inputs for predictions
 
 ---
 
@@ -26,10 +24,10 @@ Real_Estate_Solution/
 │   ├── data_split.py
 │   ├── model_training.py
 │   ├── model_evaluation.py
-│   └── visualization.py
 ├── main.py
 ├── app.py
-├── final.csv
+├── data/
+|   ├── final.csv
 ├── requirements.txt
 └── README.md
 ```
@@ -68,7 +66,9 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-After running this command, your app will be accessible at [http://localhost:8501](http://localhost:8501).
+After running this command, your app will be accessible at http://localhost:8501/.
+
+Streamlit app link: https://realestateapp-arjunvk.streamlit.app/
 
 ---
 
@@ -76,10 +76,8 @@ After running this command, your app will be accessible at [http://localhost:850
 
 - **Interactive Price Predictions:** Choose property features from dropdowns to predict property prices.
 - **Model Evaluation:** See the Mean Absolute Error (MAE) and Mean Squared Error (MSE) for model accuracy.
-- **Visual Insights:**
+- **Insights:**
   - Distribution of property prices
-  - Scatter plot of square footage vs. price
-  - Correlation heatmap to understand feature relationships
 
 ---
 
