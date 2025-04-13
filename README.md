@@ -108,7 +108,7 @@ Streamlit app link: https://realestateapp-arjunvk.streamlit.app/
 
 ## 🌩 Deployment
 
-Deploy easily on [Streamlit Cloud](https://streamlit.io/cloud) by linking your GitHub repository.
+Streamlit: https://realestateapp-arjunvk.streamlit.app/
 
 ---
 
@@ -126,5 +126,5 @@ Feel free to fork this repository and make improvements or adjustments. Pull req
 
 ## ✉️ Contact
 
-- **Author:** Sree Sankaran Chackoth
+- **Author:** Arjun Vannathan Kandy
 - **GitHub:** https://github.com/arjunvk007/Real_Estate_App/tree/master
